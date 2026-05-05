@@ -184,3 +184,105 @@ footer ul {
 
 /*** Responsive */
 
+/* Tablet */
+@media (max-width: 768px) {
+
+    #card-section>div {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section>div {
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .contacto {
+        width: 100%;
+        text-align: left;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
+/* mobile */
+@media (max-width: 450px) {
+
+    nav {
+        padding: 12px;
+    }
+
+    .bg-header {
+        height: 220px;
+    }
+
+    .bg-header h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    section,
+    footer {
+        padding: 24px 16px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #card-section>div {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section>div {
+        flex-direction: column;
+    }
+
+    .formulario,
+    .contacto {
+        width: 100%;
+        padding: 16px 0;
+    }
+
+    .contacto {
+        text-align: left;
+    }
+
+    form {
+        padding: 24px 20px 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    footer>div {
+        width: 100%;
+    }
+
+    .news-letter>input[type="text"] {
+        width: 100%;
+    }
+
+    .news-letter>input[type="submit"] {
+        position: static;
+        width: 100%;
+        margin-top: 8px;
+    }
+}
